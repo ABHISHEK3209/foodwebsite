@@ -1,0 +1,120 @@
+
+/* CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+}
+:root{--navbar-height:60px;}
+/*Navigatin bar*/
+#navbar{ position: absolute;
+    display:flex;
+    align-items:center;
+   
+   
+}
+#logo img{height: 160px;
+    width: 170px;
+    margin: -37px 33px;
+    padding: 1px 1px;
+    filter: brightness(0) invert(1);
+    
+}
+/* Navigation Bar List*/
+
+#navbar ul{
+    
+display: flex;
+font-family: 'Caprasimo', cursive;
+
+}
+#navbar::before{
+    
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 1px 369px;
+ 
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+#navbar ul li{ list-style:none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{ 
+    color: white;
+    display: block;/*flex ke karan already ho gaya*/
+    padding: 3px 8px;
+    margin: 2px 8px;
+    text-decoration:none ;
+    border-radius: 8px;
+
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+#home2::before{
+    
+    content: "";
+  position: absolute;
+    background:url('image/11.jpg') no-repeat center/cover;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+
+
+
+
+/*Home section*/
+.h12 h1 
+{
+  text-align: center;
+    margin: -27px 2px;
+    padding: 64px 4px;
+    font-size: 2rem;
+   }
+   #message2 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+   #message2 input,
+   #message2 textarea
+   {
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 7px;
+   
+   }
+
+   #message2 form{width: 40%;}
+   
+   #message2 label{font-size: 1.1rem;}
+
+   .btn6{
+    display: flex;
+        width: 30%;
+}
+   
+ 
+
+    footer {  text-align: center;
+        background:radial-gradient(rgb(136, 101, 119) , rgb(26, 26, 37), rgb(132, 174, 132));
+        
+        color: white;
+        padding: 2px 3px;
+        
+        }

@@ -1,0 +1,36 @@
+#navbar{ top:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    }
+    #navbar ul li{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+    #navbar ul li a{
+    padding: 9px 4px;
+            margin: 1px -3px;}
+    /* Home Section */
+    
+    #home2{ 
+        height: :100%;
+        width: auto;
+        padding: -2px 50px;
+        margin: -138px 0px;
+    
+    }
+    
+    #home2::before{ position:absolute;
+        height: :480px;
+        }
+    
+
+
+        #message2 form
+        {
+        width: 80%;
+        }
+       

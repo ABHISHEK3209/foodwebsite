@@ -1,0 +1,220 @@
+/* CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+:root{--navbar-height:60px;}
+/*Navigatin bar*/
+#navbar{
+    display:flex;
+    align-items:center;
+    position: absolute;
+   
+}
+#logo img{height: 160px;
+    width: 170px;
+    margin: -37px 33px;
+    padding: 1px 1px;
+    filter: brightness(0) invert(1);
+    
+}
+/* Navigation Bar List*/
+
+#navbar ul{
+display: flex;
+font-family: 'Caprasimo', cursive;
+
+}
+#navbar::before{
+    
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 1px 0px;
+ 
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+#navbar ul li{ list-style:none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{ 
+    color: white;
+    display: block;/*flex ke karan already ho gaya*/
+    padding: 3px 8px;
+    margin: 2px 8px;
+    text-decoration:none ;
+    border-radius: 8px;
+
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/*Home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    padding: 2px 200px   ;
+   
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    
+    content: "";
+    border-radius: 12px;
+    position: absolute;
+    background:url('1.jpg') no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+ 
+}
+
+
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bacasime Antique', serif;
+}
+/*Utility class*/
+.h-primary{
+     
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+        color: white;
+        padding: 12px 1px;
+        margin: 11px 2px;
+        font-size: 1.6rem;
+}
+.btn{
+    padding: 6px 13px;
+    margin: 0px 15px;
+    border: 2px solid white;
+    background: radial-gradient(#56de56,#999247,#d40031);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;}
+/*2nd section */
+
+
+.service-container 
+{ position: relative;
+    margin-top:50px 0px;
+    padding-top: 102px 0px;
+    padding-bottom: 20px;
+  
+}
+.service-container h1
+
+{text-align: center;
+    padding-top: 40px;
+font-size:2.4rem;
+font-family: 'Noto Serif', serif;
+}
+#service
+{ margin:40px;    
+    display: flex;
+    
+    }
+    .box{
+        border: 2px solid #d28787;
+    padding: 1px 17px;
+    margin: 2px 7px;
+    border-radius: 16px;
+    background-color: #f9f3f3;
+    }
+    .box img {
+        display: block;
+        margin: auto;
+        width:238px;
+     }
+     #hel{ height: 165px;}
+     
+
+.box h2{ margin:6px 4px;
+    padding: 9px 3px;
+    text-align: center;
+font-size: 1.3rem;
+font-family: 'Noto Serif', serif;
+
+}
+.center{font-family: 'Bacasime Antique', serif;
+font-size:1.2rem;}
+
+/*client section*/
+
+
+#client-section 
+{height: 330px;
+
+    position: relative;
+
+}
+#client-section::before  {
+content:"" ;
+position:absolute;
+background: url('image/10.jpg') no-repeat center/cover;
+width: 100%;
+height: 330px;
+z-index:-1;
+opacity: 0.4;
+border-radius: 12px;
+
+}
+
+#client-section h1{
+ padding: 22px;
+    text-align: center;
+font-size: 2.4rem;
+font-family: 'Noto Serif', serif;
+
+}
+
+#client { margin: 4px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 2px;
+margin: 22px;
+}
+#client img { height: 94px;
+padding: 2px 6px;
+margin: 2px 8px;}
+
+ 
+
+
+/* footer us ka kaam*/
+footer { text-align: center;
+background:radial-gradient(rgb(26, 24, 25) , rgb(26, 26, 37), rgb(22, 32, 22));
+
+color: white;
+padding: 5px 3px ;
+
+
+}
+#kuchnahi
+{
+    padding:26px 1px;
+   
+}
+#sectionkephle{margin-top: 220px;
+padding-top: 60px;}
+
